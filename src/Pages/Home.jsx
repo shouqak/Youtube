@@ -44,7 +44,7 @@ const Categorys = ({ category }) => {
         <Categorys key={index} category={cat} />
       ))}
     </div>  
-          <div className=" w-full">
+          <div className="p-10 lg:p-0 md:mx-15 w-full">
             <VideoCard/>
           </div>
         </div>
